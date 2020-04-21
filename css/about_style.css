@@ -1,0 +1,158 @@
+body,
+html {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    color: #444;
+    font-family: 'Helvetica', 'Arial';
+    font-weight: 200;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    height: 100%;
+    position: absolute;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    position: absolute;
+    z-index: 1000;
+}
+
+.text1 {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.text1 h1 {
+    text-shadow: 5px 5px#141e26;
+    text-align: center;
+    align-self: center;
+    color: #A6BAD9;
+    top: 40%;
+    font-size: 5vw;
+}
+
+.text2 {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.text2 h1 {
+    text-shadow: 5px 5px#141e26;
+    text-align: center;
+    align-self: center;
+    color: #d99c79;
+    top: 40%;
+    font-size: 5vw;
+}
+
+.text3 {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.text3 h1 {
+    text-shadow: 5px 5px#141e26;
+    text-align: center;
+    align-self: center;
+    color: #3BD9D8;
+    top: 40%;
+    font-size: 5vw;
+}
+
+.text4 {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.text4 h1 {
+    text-shadow: 5px 5px#141e26;
+    text-align: center;
+    align-self: center;
+    color: #1d59ba;
+    top: 40%;
+    font-size: 5vw;
+}
+
+.parallax1 {
+    /* The image used */
+    background-image: url('../img/Front_ebc30f3f-946a-4a6b-9818-31323a39a0ba_2048x2048.jpg');
+    /* Full height */
+    height: 100%;
+    width: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+    /* The image used */
+    background-image: url('../img/ezgif.com-gif-maker.webp');
+    /* Full height */
+    height: 100%;
+    width: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax3 {
+    /* The image used */
+    background-image: url('../img/Custom-Pauly-x-Vlone-Pop-Nike-Air-Force-1-Low-Graffiti-Harlem-White-4.jpg');
+    /* Full height */
+    height: 100%;
+    width: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax4 {
+    /* The image used */
+    background-image: url('../img/lighter.webp');
+    /* Full height */
+    height: 100%;
+    width: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container .btn {
+    width: 100%;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #f1f1f1;
+    color: black;
+    font-size: 3vw;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.container .btn:hover {
+    transition: all 0.5s ease-in;
+    background-color: #141e26;
+    color: #1d59ba;
+}
